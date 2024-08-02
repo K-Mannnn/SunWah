@@ -272,7 +272,7 @@ background-color: #edcb45;
   }
 
   .navbar{
-    padding: 10px 5%;
+    padding: 5px 5%;
     max-width: 90%;
   }
 
@@ -313,7 +313,7 @@ background-color: #edcb45;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 10px;
+
       white-space: nowrap;
   }
 
