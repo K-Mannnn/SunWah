@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="./SunWah.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <img class="header-img" src="./sun Wah Images/Frame 10.png" alt="" />
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-left">
+        <div class="burger-menu" id="burger-menu">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./menu.html">MENU</a></li>
+          <li><a href="./Gallery.html">GALLERY</a></li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <span>Collection only - </span>
+        <a href="tel:01869322838" class="phone-button">01869322838</a>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="image-container">
+        <img
+          src="./Images 2024/LA3. FRIED PORK IN SPICY SAUCE.jpg"
+          alt="Your Image"
+        />
+        <img
+          src="./Images 2024/LV12 To-Fu with Vegetables in garlic sauce.jpg"
+          alt="Your Image"
+        />
+        <img
+          src="./Images 2024/29. Shredded Beef Chilli.jpg"
+          alt="Your Image"
+        />
+        <img
+          src="./Images 2024/31 Very Tasty Char Siu (Hong Kong Style Pork).png"
+          alt="Your Image"
+        />
+        <img
+          src="./Images 2024/22 'Tai-Pan' Chicken in a Hot Bean Sauce (Hot).png"
+          alt="Your Image"
+        />
+        <img
+          src="./Images 2024/89A . Sambal beef Chow mein.png"
+          alt="Your Image"
+        />
+        <img src="./Images 2024/119 stir fry broccoli.jpg" alt="Your Image" />
+        <img
+          src="./Images 2024/A11. Fried Chicken in Spicy Sauce.jpg"
+          alt="Your Image"
+        />
+        <img src="./Images 2024/113.Chips in gravy.jpg" alt="Your Image" />
+        <img
+          src="./Images 2024/L8 Szechuan Style Char Siu Pork (Chilli Hot & Spicy).png"
+          alt="Your Image"
+        />
+        <img src="./Images 2024/p (19).png" alt="Your Image" />
+        <img src="./Images 2024/p (17).png" alt="Your Image" />
+        <img src="./Images 2024/p (24).png" alt="Your Image" />
+        <img src="./Images 2024/p (27).png" alt="Your Image" />
+        <img src="./Images 2024/p (32).png" alt="Your Image" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/WahHongChineseTakeAway"
+          ><img class="social-logo" src="./Sun wah Images/fb.png" alt=""
+        /></a>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    document
+      .getElementById("burger-menu")
+      .addEventListener("click", function () {
+        var navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("active");
+      });
+  </script>
+</html>

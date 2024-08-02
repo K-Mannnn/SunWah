@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="./SunWah.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <img class="header-img" src="./sun Wah Images/Frame 10.png" alt="" />
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="navbar-left">
+        <div class="burger-menu" id="burger-menu">&#9776;</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./menu.html">MENU</a></li>
+          <li><a href="./Gallery.html">GALLERY</a></li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <span>Collection only - </span>
+        <a href="tel:01869322838" class="phone-button">01869322838</a>
+      </div>
+    </nav>
+    <div class="content">
+      <img class="menu-img" src="./sun Wah Images/Frame 16.png" alt="" />
+      <!-- <div class="pdf-container">
+        <iframe src="./menu.pdf" frameborder="0"></iframe>
+    </div> -->
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/WahHongChineseTakeAway"
+          ><img class="social-logo" src="./Sun wah Images/fb.png" alt=""
+        /></a>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    document
+      .getElementById("burger-menu")
+      .addEventListener("click", function () {
+        var navLinks = document.getElementById("nav-links");
+        navLinks.classList.toggle("active");
+      });
+  </script>
+</html>
